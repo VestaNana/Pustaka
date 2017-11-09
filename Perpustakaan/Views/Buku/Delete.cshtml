@@ -1,0 +1,106 @@
+﻿@model PerpustakaanViewModel.BukuViewModel
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>BukuViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.KodeBuku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KodeBuku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kategori)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kategori)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KodePenerbit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KodePenerbit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JudulBuku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JudulBuku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.jumlahBuku)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.jumlahBuku)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pengarang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pengarang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TahunTerbit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TahunTerbit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedBy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Created)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Created)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedBy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedBy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Modified)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Modified)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

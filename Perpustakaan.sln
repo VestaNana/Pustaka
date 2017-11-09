@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Perpustakaan", "Perpustakaan\5.Perpustakaan.csproj", "{82443FED-2D5D-4F52-8772-96EEA0CB792D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Perpustakaan.Tests", "Perpustakaan.Tests\4.Perpustakaan.Tests.csproj", "{CDF5D004-17DA-4671-B9BB-CF01ADF71914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.PerpustakaanViewModel", "PerpustakaanViewModel\2.PerpustakaanViewModel.csproj", "{AA234A57-8A57-4541-8B3E-E0EF695E8B59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.PerpustakaanDataAccess", "PerpustakaanDataAccess\3.PerpustakaanDataAccess.csproj", "{75A84F2D-D26B-4A69-8A9E-9093EC8AA3B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.PerpustakaanDataModel", "PerpustakaanDataModel\1.PerpustakaanDataModel.csproj", "{3D79AFE9-B8A2-43DA-B0F5-9BD76302C525}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4E45D93B-2D7E-4518-B928-28D880FE4B11}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82443FED-2D5D-4F52-8772-96EEA0CB792D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82443FED-2D5D-4F52-8772-96EEA0CB792D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82443FED-2D5D-4F52-8772-96EEA0CB792D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82443FED-2D5D-4F52-8772-96EEA0CB792D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF5D004-17DA-4671-B9BB-CF01ADF71914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF5D004-17DA-4671-B9BB-CF01ADF71914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF5D004-17DA-4671-B9BB-CF01ADF71914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF5D004-17DA-4671-B9BB-CF01ADF71914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA234A57-8A57-4541-8B3E-E0EF695E8B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA234A57-8A57-4541-8B3E-E0EF695E8B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA234A57-8A57-4541-8B3E-E0EF695E8B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA234A57-8A57-4541-8B3E-E0EF695E8B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A84F2D-D26B-4A69-8A9E-9093EC8AA3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A84F2D-D26B-4A69-8A9E-9093EC8AA3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A84F2D-D26B-4A69-8A9E-9093EC8AA3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A84F2D-D26B-4A69-8A9E-9093EC8AA3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D79AFE9-B8A2-43DA-B0F5-9BD76302C525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D79AFE9-B8A2-43DA-B0F5-9BD76302C525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D79AFE9-B8A2-43DA-B0F5-9BD76302C525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D79AFE9-B8A2-43DA-B0F5-9BD76302C525}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

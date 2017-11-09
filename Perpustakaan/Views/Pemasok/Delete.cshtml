@@ -1,0 +1,90 @@
+﻿@model PerpustakaanViewModel.PemasokViewModel
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PemasokViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.KodePenerbit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KodePenerbit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KodePemasok)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KodePemasok)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NamaPemasok)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NamaPemasok)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AlamatPemasok)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AlamatPemasok)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Telepon)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Telepon)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedBy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Created)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Created)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedBy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedBy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Modified)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Modified)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,6 @@
+﻿@model IEnumerable<PerpustakaanViewModel.AnggotaViewModel>
+<option value="">Select Anggota</option>
+@foreach (var item in Model)
+{
+    <option value="@item.KodeAnggota">@item.KodeAnggota</option>
+}
